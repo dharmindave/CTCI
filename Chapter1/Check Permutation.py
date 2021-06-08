@@ -16,8 +16,8 @@ def checkpermutation(str1,str2):
             str2=str2.replace(i,"")
             print("succesful")
     return len(str2)==0
-str1="dharmin"
-str2="dharmni"
+str1=input("enter the string1")
+str2=input("enter the string2")
 print(checkpermutation(str1,str2))
 
 
